@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Gifs!</title>
+</head>
+<body>
+    <h1>Look at these wonderful gifs!</h1>
+    <h2>Today's date is {{date}}.</h2>
+    </h2>
+    <ul>
+        {% for gif in gifs %}
+            <img src="{{gif}}">
+        {% endfor %}    
+    </ul>
+</body>
+</html>
